@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapylib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testpd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="ver0.1">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapylibrary.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +109,21 @@
       <option name="presentableId" value="Default" />
       <updated>1653756754492</updated>
     </task>
+    <task id="LOCAL-00001" summary="ver0.1">
+      <created>1656411129713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656411129714</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ver0.1">
+      <created>1656411183086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656411183086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,10 +131,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ver0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver0.1" />
   </component>
 </project>
