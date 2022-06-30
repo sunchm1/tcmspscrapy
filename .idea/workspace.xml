@@ -4,45 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="ver0.1">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chaihu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chaihu_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chaihu_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chaihu_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chaihu_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gancao.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gancao_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gancao_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gancao_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gancao_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganjiang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganjiang_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganjiang_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganjiang_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganjiang_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guizhi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guizhi_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guizhi_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guizhi_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guizhi_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guolvshuju.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangqin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangqin_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangqin_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangqin_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangqin_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tianhuafen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tianhuafen_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tianhuafen_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tianhuafen_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tianhuafen_targets_filtered.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" afterDir="false" />
+    <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pashuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guolvshuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/guolvshuju.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapylib.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapylib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testpd.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656411183086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ver0.1">
+      <created>1656593230074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656593230074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

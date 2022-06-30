@@ -84,6 +84,7 @@ class GetHerbInfo:
         self.pd_targets.to_excel(targetsfile)
 
 class PDGernerator:
+    INDEX = 'MOL_ID'
     def __init__(self,herbpinyinname):
         self.herbname=herbpinyinname
         self.ingredients=self.getIngredients(self.herbname + '_ingredients.xlsx')

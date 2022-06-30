@@ -16,3 +16,4 @@ if __name__ == '__main__':
     formulacn=['chaihu','guizhi','ganjiang','huangqin','tianhuafen','gancao']
     for herb in formulacn:
         dataFilter(herb)
+
