@@ -102,3 +102,9 @@ class PDGernerator:
             return pandas.read_excel(filename)
         except (FileExistsError,FileNotFoundError):
             print('file not exist, create GetHerbInfo instance first')
+
+    def writeFilteredData(self,df_ingredients,df_targets):
+        ingredients_filename=self.herbname + '_ingredients_filtered.xlsx'
+        targets_filename=self.herbname + '_targets_filtered.xlsx'
+        df_ingredients.to_excel(ingredients_filename)
+        df_targets.to_excel(targets_filename)
