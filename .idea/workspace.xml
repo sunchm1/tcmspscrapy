@@ -5,7 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/data/chaihu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chaihu_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chaihu_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chaihu_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chaihu_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gancao.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gancao_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gancao_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gancao_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gancao_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ganjiang.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ganjiang_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ganjiang_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ganjiang_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ganjiang_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/guizhi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/guizhi_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/guizhi_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/guizhi_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/guizhi_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/huangqin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/huangqin_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/huangqin_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/huangqin_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/huangqin_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tianhuafen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tianhuafen_ingredients.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tianhuafen_ingredients_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tianhuafen_targets.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tianhuafen_targets_filtered.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaihu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaihu_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaihu_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaihu_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaihu_targets_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gancao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gancao_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gancao_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gancao_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gancao_targets_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganjiang.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganjiang_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganjiang_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganjiang_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganjiang_targets_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guizhi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guizhi_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guizhi_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guizhi_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guizhi_targets_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guolvshuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/guolvshuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huangqin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huangqin_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huangqin_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huangqin_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huangqin_targets_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pashuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/pashuju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapylib.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapylib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tianhuafen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tianhuafen_ingredients.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tianhuafen_ingredients_filtered.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tianhuafen_targets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tianhuafen_targets_filtered.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656594282325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ver0.2">
+      <created>1656909266226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656909266226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

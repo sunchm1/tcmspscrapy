@@ -11,6 +11,7 @@ import pandas
 class GetHerbInfo:
     '''爬到的数据包装到此类，并将数据写入文件。成员变量包括成分（ingredients属性），靶点（targets属性），数据类型List'''
     def __init__(self,herbpinyinname,url):
+        self.path='./data/'
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:100.0) Gecko/20100101 Firefox/100.0'}
         self.herbname=herbpinyinname
@@ -19,8 +20,8 @@ class GetHerbInfo:
         self.response=self.getResponse(url)
         #self.saveHtml()
         self.saveScriptText()
-        self.ingredients=self.getIngredients(self.herbname + '.txt')
-        self.targets=self.getTargets(self.herbname + '.txt')
+        self.ingredients=self.getIngredients(self.path+self.herbname + '.txt')
+        self.targets=self.getTargets(self.path+self.herbname + '.txt')
         self.pd_ingredients=pandas.DataFrame(self.ingredients)
         self.pd_targets=pandas.DataFrame(self.targets)
         self.writeXlsx()
@@ -42,7 +43,8 @@ class GetHerbInfo:
     #         print("%s.html has already exists, abort saving..." % self.herbname)
 
     def saveScriptText(self):
-        filename = self.herbname + '.txt'
+        filename = self.path+self.herbname + '.txt'
+        print("saving file to:%s"%filename)
         html = self.response.content.decode('utf-8')
         soup = BeautifulSoup(html, 'html.parser')
         scripts = soup.findAll('script')
@@ -76,8 +78,8 @@ class GetHerbInfo:
 
     def writeXlsx(self):
         '''将成分和靶点数据写入excel'''
-        ingredientsfile = self.herbname + '_ingredients.xlsx'
-        targetsfile = self.herbname + '_targets.xlsx'
+        ingredientsfile = self.path+self.herbname + '_ingredients.xlsx'
+        targetsfile = self.path+self.herbname + '_targets.xlsx'
         self.pd_ingredients.set_index('MOL_ID',inplace=True)
         self.pd_targets.set_index('MOL_ID',inplace=True)
         self.pd_ingredients.to_excel(ingredientsfile)
@@ -85,10 +87,13 @@ class GetHerbInfo:
 
 class PDGernerator:
     INDEX = 'MOL_ID'
+    path = './data/'
     def __init__(self,herbpinyinname):
         self.herbname=herbpinyinname
-        self.ingredients=self.getIngredients(self.herbname + '_ingredients.xlsx')
-        self.targets=self.getTargets(self.herbname + '_targets.xlsx')
+        print('get ingredients to pd...')
+        self.ingredients=self.getIngredients(self.path+self.herbname + '_ingredients.xlsx')
+        print('get targets to pd...')
+        self.targets=self.getTargets(self.path+self.herbname + '_targets.xlsx')
 
     def getIngredients(self,filename):
         # return ingredients list (type:list)
@@ -105,7 +110,9 @@ class PDGernerator:
             print('file not exist, create GetHerbInfo instance first')
 
     def writeFilteredData(self,df_ingredients,df_targets):
-        ingredients_filename=self.herbname + '_ingredients_filtered.xlsx'
-        targets_filename=self.herbname + '_targets_filtered.xlsx'
+        ingredients_filename=self.path+self.herbname + '_ingredients_filtered.xlsx'
+        targets_filename=self.path+self.herbname + '_targets_filtered.xlsx'
+        #print(ingredients_filename)
+        #print(targets_filename)
         df_ingredients.to_excel(ingredients_filename)
         df_targets.to_excel(targets_filename)

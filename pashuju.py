@@ -18,7 +18,7 @@ def getHerbData(formulacn,formulaen,token):
 if __name__ == '__main__':
     '''爬取数据时调用getHerbData函数批量创建GetHerbInfo对象，数据自动写入文件。GetHerbInfo对象初始化时须传入方剂的中英文名（类型：列表）、token，返回GetHerbInfo对象列表'''
 
-    token = '71c3de2323b5cabf70be678a64c9aff5'
+    token = 'f3bc803f0197f6cec27cf22f6b1adc01'
     formulacn=['chaihu','guizhi','ganjiang','huangqin','tianhuafen','gancao']
     formulaen = ['Radix%20Bupleuri', 'Cinnamomi%20Ramulus', 'Zingiberis%20Rhizoma','Scutellariae%20Radix','Trichosanthis%20Radix', 'licorice']
     herbs=getHerbData(formulacn,formulaen,token)

@@ -15,5 +15,7 @@ def dataFilter(herbname):
 if __name__ == '__main__':
     formulacn=['chaihu','guizhi','ganjiang','huangqin','tianhuafen','gancao']
     for herb in formulacn:
+        print('dealing %s'% herb)
         dataFilter(herb)
+        print('done.')
 
