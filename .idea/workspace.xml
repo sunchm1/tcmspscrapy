@@ -5,70 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133bd7cd-e8f8-45cd-ac47-92c87e377152" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/data/chaihu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chaihu_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chaihu_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chaihu_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chaihu_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gancao.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gancao_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gancao_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gancao_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gancao_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ganjiang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ganjiang_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ganjiang_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ganjiang_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ganjiang_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/guizhi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/guizhi_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/guizhi_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/guizhi_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/guizhi_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/huangqin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/huangqin_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/huangqin_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/huangqin_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/huangqin_targets_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tianhuafen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tianhuafen_ingredients.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tianhuafen_ingredients_filtered.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tianhuafen_targets.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tianhuafen_targets_filtered.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uniprotiddealer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tcmspscrapy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaihu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaihu_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaihu_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaihu_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chaihu_targets_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gancao.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gancao_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gancao_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gancao_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gancao_targets_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganjiang.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganjiang_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganjiang_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganjiang_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganjiang_targets_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guizhi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guizhi_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guizhi_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guizhi_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guizhi_targets_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guolvshuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/guolvshuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangqin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangqin_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangqin_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangqin_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangqin_targets_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pashuju.py" beforeDir="false" afterPath="$PROJECT_DIR$/pashuju.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapylib.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapylib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianhuafen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianhuafen_ingredients.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianhuafen_ingredients_filtered.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianhuafen_targets.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianhuafen_targets_filtered.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="tcmspscrapy" is-module-sdk="true">
